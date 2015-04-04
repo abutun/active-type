@@ -69,6 +69,8 @@
     <Compile Include="CourseEditor.Designer.cs">
       <DependentUpon>CourseEditor.cs</DependentUpon>
     </Compile>
+    <None Include="FirstRun\layouts\Thumbs.db" />
+    <None Include="FirstRun\Readme" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -166,6 +168,17 @@
     <None Include="Resources\31.gif" />
     <Content Include="App.ico" />
     <Content Include="App.png" />
+    <Content Include="FirstRun\layouts\tr\TR_F.xml" />
+    <Content Include="FirstRun\layouts\tr\TR_Q.xml" />
+    <Content Include="FirstRun\layouts\tr_f.png" />
+    <Content Include="FirstRun\layouts\tr_q.png" />
+    <Content Include="FirstRun\layouts\us_int.png" />
+    <Content Include="FirstRun\sounds\bad.wav" />
+    <Content Include="FirstRun\sounds\bad1.wav" />
+    <Content Include="FirstRun\sounds\bad2.wav" />
+    <Content Include="FirstRun\sounds\good.wav" />
+    <Content Include="FirstRun\sounds\good1.wav" />
+    <Content Include="PureComponents.NicePanel.fw11.dll" />
     <Content Include="Resources\other\logo.gif" />
     <Content Include="Resources\other\s1.jpg" />
     <Content Include="Resources\other\s2.jpg" />
@@ -207,6 +220,15 @@
       <Project>{33ED342E-C277-415C-9161-7816668D63E3}</Project>
       <Name>ActiveType.FingerControlLibrary</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FirstRun\layouts\en\" />
+    <Folder Include="FirstRun\lessons\en\" />
+    <Folder Include="FirstRun\lessons\tr\F\" />
+    <Folder Include="FirstRun\lessons\tr\Q\" />
+    <Folder Include="FirstRun\logs\" />
+    <Folder Include="FirstRun\settings\" />
+    <Folder Include="FirstRun\users\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

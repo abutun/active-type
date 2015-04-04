@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<keyboards>
+	<keyboard code="TR" type="Q">
+		<scheme id="1" name="BLUE">
+			<rows>
+				<row id="1" name="Row 1">
+					<key code="Oemtilde">
+						<positionx>10</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">"</position>
+							<position id="2">é</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="D1">
+						<positionx>60</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">1</position>
+							<position id="2">!</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="D2">
+						<positionx>110</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">2</position>
+							<position id="2">'</position>
+							<position id="3"></position>
+							<position id="4">£</position>
+						</characters>	
+					</key>
+					<key code="D3">
+						<positionx>160</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">3</position>
+							<position id="2">^</position>
+							<position id="3"></position>
+							<position id="4">#</position>
+						</characters>
+					</key>
+					<key code="D4">
+						<positionx>210</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">4</position>
+							<position id="2">+</position>
+							<position id="3"></position>
+							<position id="4">$</position>
+						</characters>	
+					</key>
+					<key code="D5">
+						<positionx>260</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">5</position>
+							<position id="2">%</position>
+							<position id="3"></position>
+							<position id="4">½</position>
+						</characters>		
+					</key>
+					<key code="D6">
+						<positionx>310</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">6</position>
+							<position id="2">&amp;</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>	
+					</key>
+					<key code="D7">
+						<positionx>360</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">7</position>
+							<position id="2">/</position>
+							<position id="3"></position>
+							<position id="4">{</position>
+						</characters>		
+					</key>
+					<key code="D8">
+						<positionx>410</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">8</position>
+							<position id="2">(</position>
+							<position id="3"></position>
+							<position id="4">[</position>
+						</characters>		
+					</key>
+					<key code="D9">
+						<positionx>460</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">9</position>
+							<position id="2">)</position>
+							<position id="3"></position>
+							<position id="4">]</position>
+						</characters>	
+					</key>
+					<key code="D0">
+						<positionx>510</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">0</position>
+							<position id="2">=</position>
+							<position id="3"></position>
+							<position id="4">}</position>
+						</characters>	
+					</key>
+					<key code="Oem8">
+						<positionx>560</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">*</position>
+							<position id="2">?</position>
+							<position id="3"></position>
+							<position id="4">\</position> 
+						</characters>	
+					</key>
+					<key code="OemMinus">
+						<positionx>610</positionx>
+						<positiony>36</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">_</position>
+							<position id="2">-</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>		
+					</key>
+					<key code="Back">
+						<positionx>660</positionx>
+						<positiony>36</positiony>
+						<width>95</width>
+						<height>45</height>
+						<characters>
+							<position id="1">&lt;--Back</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>  																	
+				</row>
+				<row id="2" name="Row 2">
+					<key code="Tab">
+						<positionx>10</positionx>
+						<positiony>86</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Tab</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Q">
+						<positionx>85</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">Q</position>
+							<position id="3"></position>
+							<position id="4">@</position>
+						</characters>
+					</key>
+					<key code="W">
+						<positionx>135</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">W</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="E">
+						<positionx>185</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">E</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="R">
+						<positionx>235</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">R</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="T">
+						<positionx>285</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">T</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Y">
+						<positionx>335</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">Y</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="U">
+						<positionx>385</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">U</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="I">
+						<positionx>435</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">I</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="O">
+						<positionx>485</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">O</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="P">
+						<positionx>535</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">P</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="OemOpenBrackets">
+						<positionx>585</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">Ğ</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Oem6">
+						<positionx>635</positionx>
+						<positiony>86</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2">Ü</position>
+							<position id="3"></position>
+							<position id="4">~</position>
+						</characters>
+					</key>
+					<key code="Oemcomma">
+						<positionx>685</positionx>
+						<positiony>86</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1">,</position>
+							<position id="2">;</position>
+							<position id="3"></position>
+							<position id="4">`</position>
+						</characters>
+					</key>
+				</row>
+				<row id="3" name="Row 3">
+					<key code="Capital">
+						<positionx>10</positionx>
+						<positiony>136</positiony>
+						<width>80</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Caps</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="A">
+						<positionx>95</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">A</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="S">
+						<positionx>145</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">S</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="D">
+						<positionx>195</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">D</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="F">
+						<positionx>245</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">F</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="G">
+						<positionx>295</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">G</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="H">
+						<positionx>345</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">H</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="J">
+						<positionx>395</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">J</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="K">
+						<positionx>445</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">K</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="L">
+						<positionx>495</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">L</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Oem1">
+						<positionx>545</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Ş</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Oem7">
+						<positionx>595</positionx>
+						<positiony>136</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">İ</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Return">
+						<positionx>645</positionx>
+						<positiony>136</positiony>
+						<width>110</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Enter</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+				</row>	
+				<row id="4" name="Row 4">
+					<key code="LShiftKey">
+						<positionx>10</positionx>
+						<positiony>186</positiony>
+						<width>55</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Shift</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="OemBackslash">
+						<positionx>70</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">&lt;</position>
+							<position id="2">&gt;</position>
+							<position id="3">|</position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Z">
+						<positionx>120</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Z</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="X">
+						<positionx>170</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">X</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="C">
+						<positionx>220</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">C</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="V">
+						<positionx>270</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">V</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="B">
+						<positionx>320</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">B</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="N">
+						<positionx>370</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">N</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="M">
+						<positionx>420</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">M</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="OemQuestion">
+						<positionx>470</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Ö</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Oem5">
+						<positionx>520</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Ç</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="OemPeriod">
+						<positionx>570</positionx>
+						<positiony>186</positiony>
+						<width>45</width>
+						<height>45</height>
+						<characters>
+							<position id="1">.</position>
+							<position id="2">:</position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="RShiftKey">
+						<positionx>620</positionx>
+						<positiony>186</positiony>
+						<width>135</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Shift</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+				</row>
+				<row id="5" name="Row 5">
+					<key code="LControlKey">
+						<positionx>10</positionx>
+						<positiony>236</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Ctrl</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="LWin">
+						<positionx>85</positionx>
+						<positiony>236</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Win</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="LMenu">
+						<positionx>160</positionx>
+						<positiony>236</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Alt</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Space">
+						<positionx>235</positionx>
+						<positiony>236</positiony>
+						<width>220</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="RMenu">
+						<positionx>460</positionx>
+						<positiony>236</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Alt Gr</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="RWin">
+						<positionx>535</positionx>
+						<positiony>236</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Win</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="Apps">
+						<positionx>610</positionx>
+						<positiony>236</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1"></position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+					<key code="RControlKey">
+						<positionx>685</positionx>
+						<positiony>236</positiony>
+						<width>70</width>
+						<height>45</height>
+						<characters>
+							<position id="1">Ctrl</position>
+							<position id="2"></position>
+							<position id="3"></position>
+							<position id="4"></position>
+						</characters>
+					</key>
+				</row>
+			</rows>								
+		</scheme>
+	</keyboard>	
+</keyboards>
