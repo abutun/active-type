@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67CAC276-5F3C-4C70-8F72-A891A14EABC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ActiveType.CustomControls</RootNamespace>
+    <AssemblyName>ActiveType.CustomControls</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enums.cs" />
+    <Compile Include="FingerLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FingerLayout.Designer.cs">
+      <DependentUpon>FingerLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Key.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KeyboardLayout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KeyboardLayout.Designer.cs">
+      <DependentUpon>KeyboardLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyStats.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KeyStats.Designer.cs">
+      <DependentUpon>KeyStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyStatsPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="KeyStatsPanel.Designer.cs">
+      <DependentUpon>KeyStatsPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LessonOutputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LetterInputBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FingerLayout.resx">
+      <DependentUpon>FingerLayout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyboardLayout.resx">
+      <DependentUpon>KeyboardLayout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyStats.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KeyStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyStatsPanel.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>KeyStatsPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\s3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lefthand.png" />
+    <None Include="Resources\righthand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightsmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightthumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightindex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightmiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftsmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftmiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftthumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftindex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveType.Settings\ActiveType.Settings.csproj">
+      <Project>{EEF307B9-461B-4796-A020-F7BCC8E4C39F}</Project>
+      <Name>ActiveType.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FingerControlLibrary\ActiveType.FingerControlLibrary.csproj">
+      <Project>{33ED342E-C277-415C-9161-7816668D63E3}</Project>
+      <Name>ActiveType.FingerControlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

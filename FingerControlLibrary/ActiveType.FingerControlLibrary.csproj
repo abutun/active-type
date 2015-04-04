@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33ED342E-C277-415C-9161-7816668D63E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ActiveType.FingerControlLibrary</RootNamespace>
+    <AssemblyName>ActiveType.FingerControlLibrary</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Finger.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FingerCollection.cs">
+    </Compile>
+    <Compile Include="FingerLetterItemCollectionEditor.cs">
+    </Compile>
+    <Compile Include="FingerLetterItemCollection.cs" />
+    <Compile Include="FingerLetterItem.cs">
+    </Compile>
+    <Compile Include="FingerType.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ThreadProcesses.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Finger.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Finger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftthumbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftthumbr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftindex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftindexb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftindexg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftindexr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftmiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftmiddleb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftmiddleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftmiddler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftringb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftringg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftringr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftsmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftsmallb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftsmallg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftsmallr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftthumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftthumbb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightthumbr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightindex.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightindexb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightindexg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightindexr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightmiddle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightmiddleb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightmiddleg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightmiddler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightringb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightringg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightringr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightsmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightsmallb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightsmallg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightsmallr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightthumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightthumbb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightthumbg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightring1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightringb1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightringg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightringr1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightsmallr1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

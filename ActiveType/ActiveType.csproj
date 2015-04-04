@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D212337-CAF3-46D5-8D31-731971D83C8E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ActiveType</RootNamespace>
+    <AssemblyName>ActiveType</AssemblyName>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PureComponents.NicePanel.fw11, Version=1.2.901.0, Culture=neutral, PublicKeyToken=2f0f2e4259d7a8e4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\PureComponents\NicePanel\bin\PureComponents.NicePanel.fw11.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CourseEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseEditor.Designer.cs">
+      <DependentUpon>CourseEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practice.Designer.cs">
+      <DependentUpon>Practice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddUser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Practice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="AppSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppSettings.Designer.cs">
+      <DependentUpon>AppSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserStats.Designer.cs">
+      <DependentUpon>UserStats.cs</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a_driver.gif" />
+    <None Include="Resources\access_lists.gif" />
+    <None Include="Resources\alert.gif" />
+    <None Include="Resources\arrow.gif" />
+    <None Include="Resources\arrow_down.gif" />
+    <None Include="Resources\arrow_up.gif" />
+    <None Include="Resources\attachment.gif" />
+    <None Include="Resources\average_receive.gif" />
+    <None Include="Resources\average_transmit.gif" />
+    <None Include="Resources\bandwidth_monitor.gif" />
+    <None Include="Resources\calendar.gif" />
+    <None Include="Resources\change_password.gif" />
+    <None Include="Resources\contact.gif" />
+    <None Include="Resources\cpu_monitor.gif" />
+    <None Include="Resources\3.gif" />
+    <None Include="Resources\collapse.gif" />
+    <None Include="Resources\config_alert.gif" />
+    <None Include="Resources\cpu_monitor1.gif" />
+    <None Include="Resources\cpu_utilization.gif" />
+    <None Include="Resources\cpumonitor16x16.jpg" />
+    <None Include="Resources\delete.gif" />
+    <None Include="Resources\description.gif" />
+    <None Include="Resources\diskspace_monitor.gif" />
+    <None Include="Resources\expand.gif" />
+    <None Include="Resources\explorer.gif" />
+    <None Include="Resources\graph.gif" />
+    <None Include="Resources\help.gif" />
+    <None Include="Resources\host_detail.gif" />
+    <None Include="Resources\ie.gif" />
+    <None Include="Resources\info.gif" />
+    <None Include="Resources\config_file_viewer.gif" />
+    <None Include="Resources\configure_alert_icon.gif" />
+    <None Include="Resources\2.gif" />
+    <None Include="Resources\31.gif" />
+    <Content Include="App.ico" />
+    <Content Include="App.png" />
+    <Content Include="Resources\other\logo.gif" />
+    <Content Include="Resources\other\s1.jpg" />
+    <Content Include="Resources\other\s2.jpg" />
+    <Content Include="Resources\other\s3.jpg" />
+    <None Include="Resources\protocolStatistics.gif" />
+    <None Include="Resources\process_monitor.gif" />
+    <None Include="Resources\port_listening.gif" />
+    <None Include="Resources\personalize_icon.gif" />
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CourseEditor.resx">
+      <DependentUpon>CourseEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PureComponents_NicePanel.license" />
+    <EmbeddedResource Include="AppSettings.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AppSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserStats.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UserStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\other\decsize.png" />
+    <None Include="Resources\other\incsize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ActiveType.Settings\ActiveType.Settings.csproj">
+      <Project>{EEF307B9-461B-4796-A020-F7BCC8E4C39F}</Project>
+      <Name>ActiveType.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CustomControls\ActiveType.CustomControls.csproj">
+      <Project>{67CAC276-5F3C-4C70-8F72-A891A14EABC3}</Project>
+      <Name>ActiveType.CustomControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FingerControlLibrary\ActiveType.FingerControlLibrary.csproj">
+      <Project>{33ED342E-C277-415C-9161-7816668D63E3}</Project>
+      <Name>ActiveType.FingerControlLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
